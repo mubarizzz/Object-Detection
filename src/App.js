@@ -17,6 +17,7 @@ function App() {
   const runCoco = async () => {
     // 3. TODO - Load network 
     // e.g. const net = await cocossd.load();
+    const net = await cocossd.load();
     
     //  Loop and detect hands
     setInterval(() => {
