@@ -41,7 +41,6 @@ function App() {
       canvasRef.current.height = videoHeight;
 
       const obj = await net.detect(video);
-      console.log(obj);
 
       // Draw mesh
       const ctx = canvasRef.current.getContext("2d");
